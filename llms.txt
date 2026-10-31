@@ -1,0 +1,29 @@
+# AI Lead Automation
+
+> AI Lead Automation is a blueprint of documentation and patterns for automating lead handling in service businesses: capture, instant reply, AI qualification, CRM write, follow-up and booking. By TechAurah.
+
+Key facts:
+- License: MIT. Format: documentation and patterns in Markdown. There is no runtime, installer or hosted service.
+- It is not a hosted product or SaaS: it sends nothing, hosts nothing and stores no leads. You implement the patterns in your own stack.
+- Reference stack: n8n or Zapier for orchestration, an LLM for reply and qualification, your existing CRM and calendar.
+- Lead scoring model: eight signals, 0-100. HOT 80+, WARM 65-79, NURTURE 50-64.
+- Current version: v0.1.0.
+
+## Documentation
+
+- [README](https://github.com/techaurah/ai-lead-automation): Full overview, the pipeline, the scoring model, comparison and FAQ
+- [Architecture and data model](https://github.com/techaurah/ai-lead-automation/blob/main/docs/architecture.md): Pipeline architecture, components and data model for the lead handling system
+- [Qualification prompt patterns](https://github.com/techaurah/ai-lead-automation/blob/main/docs/qualification-prompts.md): Channel-agnostic prompts for qualifying service business leads with an LLM
+- [CRM field mapping examples](https://github.com/techaurah/ai-lead-automation/blob/main/docs/crm-field-mapping.md): Field mappings for HubSpot, Pipedrive, GoHighLevel and Google Sheets
+- [Follow-up sequence patterns](https://github.com/techaurah/ai-lead-automation/blob/main/docs/follow-up-patterns.md): No-reply follow-up sequences, value first, with timing and stop conditions
+
+## Use it
+
+- [Releases](https://github.com/techaurah/ai-lead-automation/releases): Version history
+- [LICENSE](https://github.com/techaurah/ai-lead-automation/blob/main/LICENSE): MIT license; commercial and client use allowed
+
+## Optional
+
+- [LeadPipe MCP](https://github.com/techaurah/leadpipe-mcp): The runnable companion: an MCP server covering this pipeline for businesses without a CRM
+- [TechAurah profile](https://github.com/techaurah): The other five open-source projects
+- [TechAurah website](https://techaurah.com): The company behind the project
