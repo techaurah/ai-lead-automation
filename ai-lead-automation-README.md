@@ -1,0 +1,73 @@
+# AI Lead Automation — by TechAura
+
+A practical blueprint for automating lead handling for service businesses: capture, instant reply, AI qualification, CRM write, follow-up, and booking.
+
+> Built by [TechAura](https://techaurah.com) — AI & Software Engineering. This repository documents the architecture and provides starter workflow patterns. Adapt the prompts, fields, and steps to your own stack.
+
+## The problem
+
+Service businesses lose leads they already paid to generate:
+
+- A new inquiry arrives after hours and gets no reply until morning
+- Replies are slow, inconsistent, or forgotten
+- No qualification, so the team spends equal time on every lead
+- Leads live in DMs and inboxes, not in a CRM
+- No follow-up sequence, no booking link, no reporting
+
+## The system
+
+```
+Lead arrives (Instagram DM / web form / WhatsApp / email)
+        |
+        v
+Instant AI reply (under 60 seconds, on-brand, 24/7)
+        |
+        v
+AI qualification (service, location, timeline, budget signals)
+        |
+        v
+CRM write (contact, source, score, stage, notes)
+        |
+        v
+Follow-up sequence (no-reply nudges, value first)
+        |
+        v
+Booking (calendar link, confirmation, reminder)
+        |
+        v
+Reporting (volume, response time, conversion)
+```
+
+## Lead scoring (0-100)
+
+| Signal | Points |
+|---|---|
+| Clear problem stated | 20 |
+| Service fit | 20 |
+| Potential value | 15 |
+| Business size | 10 |
+| Ability to pay | 10 |
+| Decision-maker access | 10 |
+| Urgency | 10 |
+| Recent activity | 5 |
+
+HOT 80+, WARM 65-79, NURTURE 50-64.
+
+## Repository contents (growing)
+
+- Architecture and data model for the pipeline above
+- Qualification prompt patterns (channel-agnostic)
+- CRM field mapping examples
+- Follow-up sequence patterns
+
+## Stack this works with
+
+n8n or Zapier for orchestration, an LLM for reply and qualification, your existing CRM and calendar. No platform lock-in: the value is the flow, not a single tool.
+
+## License
+
+Documentation in this repository is shared for businesses and builders to adapt for their own use.
+
+---
+
+TechAura — https://techaurah.com — Software. Intelligence. Automation.
