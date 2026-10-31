@@ -53,12 +53,13 @@ Reporting (volume, response time, conversion)
 
 HOT 80+, WARM 65-79, NURTURE 50-64.
 
-## Repository contents (growing)
+## Repository contents
 
-- Architecture and data model for the pipeline above
-- Qualification prompt patterns (channel-agnostic)
-- CRM field mapping examples
-- Follow-up sequence patterns
+- [Architecture and data model](docs/architecture.md) for the pipeline above
+- [Qualification prompt patterns](docs/qualification-prompts.md) (channel-agnostic)
+- [CRM field mapping examples](docs/crm-field-mapping.md)
+- [Follow-up sequence patterns](docs/follow-up-patterns.md)
+- [LICENSE](LICENSE)
 
 ## Stack this works with
 
@@ -66,7 +67,7 @@ n8n or Zapier for orchestration, an LLM for reply and qualification, your existi
 
 ## License
 
-Documentation in this repository is shared for businesses and builders to adapt for their own use.
+MIT. See [LICENSE](LICENSE). Businesses and builders are welcome to adapt the documentation and patterns in this repository for their own use.
 
 ---
 
